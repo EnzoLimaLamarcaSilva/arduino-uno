@@ -1,0 +1,118 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body {
+    background: linear-gradient(to right, rgb(12, 219, 226), rgb(12, 147, 226), rgb(12, 16, 226), rgb(51, 12, 226), rgb(105, 12, 226));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 20px;
+}
+
+/* MENU */
+nav {
+    margin-bottom: 25px;
+}
+
+/* LINKS GERAIS */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* LINKS DO MENU (DESTACADOS) */
+nav a {
+    display: inline-block;
+    margin: 6px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER */
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.08);
+}
+
+/* CLIQUE */
+nav a:active {
+    transform: scale(0.95);
+}
+
+/* LINK ATIVO (opcional) */
+nav a.ativo {
+    background-color: rgb(0, 0, 0);
+}
+
+/* CONTEÚDO */
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS */
+.imgUm img,
+.imgDois img,
+.imgTres img {
+    width: 360px;
+    height: 210px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.imgsArd img {
+    border-radius: 16px;
+}
+
+/* VÍDEOS */
+.video-inicial iframe,
+.video-placa iframe,
+.video-ard iframe {
+    width: 340px;
+    height: 340px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+/* MAPA */
+.endereco iframe {
+    width: 340px;
+    height: 340px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Small */
+small {
+    font-size: small;
+}
