@@ -12,7 +12,7 @@
 <nav>
 <a href="../index.html">Principal</a>
 <a href="./fundamentos.html">Fundamentos</a>
-<a href="./sensores.html">Sensores</a>
+<a href="./componentes.html">Componentes</a>
 <a href="./arduino.html">Arduino</a>
 <a href="./clp.html">CLP</a>
 <a href="./instrumentacao.html">Instrumentação</a>
@@ -24,15 +24,31 @@
 <main>
 <h1>Arduino</h1>
 
-<p>O Arduino utiliza um microcontrolador com conversor ADC de 10 bits.</p>
+<img src="../img/arduíno.jpg" alt="Arduíno" width="360" height="360"><br>
 
-<p><b>Entrada Analógica:</b> 0 a 1023 (0–5V).</p>
+<p>O Arduino é um microcontrolador usado para automação e prototipagem.</p>
 
-<p><b>Saída PWM:</b> simula tensão analógica variando o ciclo de trabalho (0–255).</p>
+<h2>Entrada Analógica</h2>
+<p>Leitura de 0 a 1023 (0–5V).</p>
 
-<p>O PWM controla potência média aplicada a cargas como LEDs e motores.</p>
+<h2>Exemplo</h2>
+<p>Leitura de sensor de luz:</p>
 
-</main>
+<pre>
+int sensor = A0;
+
+void loop(){
+int valor = analogRead(sensor);
+}
+</pre>
+
+<h2>Saída PWM</h2>
+<p>Controla brilho de LED.</p>
+
+<h2>Exemplo</h2>
+<pre>
+analogWrite(9, 128);
+</pre>
 
 <footer>
 <small>
