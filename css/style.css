@@ -94,9 +94,13 @@ img:hover {
 }
 
 video{
-    width: 340;
-    height: 340px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
+    margin: 15px 0;
+    width: 100%;
+    height: 100%;
+    max-width: 360px;
+    max-height: 360px;
 }
 
 .endereco iframe{
