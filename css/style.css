@@ -87,11 +87,16 @@ img {
     height: 100%;
     max-width: 360px;
     max-height: 360px;
-    transition: transform 0.3s;
 }
 
 img:hover {
     transform: scale(1.02); /* Leve zoom ao passar o mouse na imagem */
+}
+
+video{
+    width: 340;
+    height: 340px;
+    border-radius: 16px;
 }
 
 .endereco iframe{
